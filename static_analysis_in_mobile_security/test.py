@@ -18,5 +18,5 @@ decoded_part2 = xor_deobfuscate(encoded_part2, 42)
 decoded_part3 = xor_deobfuscate(encoded_part3, 42)
 
 # Reconstruction finale
-flag = f"{part1}{decoded_part2}{decoded_part3}_on_your_{part4}_static_analysis_{part6}"
+flag = f"{part1}{decoded_part2}{decoded_part3}_on_your_{part4}_static_analysis_{part6}}}"
 print("FLAG:", flag)
